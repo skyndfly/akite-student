@@ -1,0 +1,128 @@
+#coodiv-header .navbar-brand img {
+    max-height: 65px;
+}
+
+.btn-sub-title-header-slider {
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(-45deg, #8e5cfd, #fd8d5f99, #fd8d5f, #8e5cfd8c);
+    transition-duration: 0.5s;
+    background-size: 400% 400%;
+    animation: gradient 7s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.tt-time-status {
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+.about-us-img-section img {
+    width: 80%;
+}
+
+.main-header-text-title span.file-label {
+    color: #000;
+    text-transform: none;
+}
+
+.main-header-text-title {
+    margin-bottom: 10px;
+}
+
+.contact-page-form-send .field.input-field {
+    width: 100%;
+}
+
+.file-card {
+    display: flex;
+    align-self: flex-end;
+}
+
+.footer-section {
+    padding: 1px 0 30px;
+    background: #2d2d44;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo .footer-logo_link {
+    width: 100%;
+    text-align: center;
+}
+
+@media(max-width: 768px){
+    #coodiv-header {
+        max-height: 100%;
+    }
+    .about-us-img-section {
+        display: none;
+    }
+}
+
+a:hover {
+    color: #fff;
+}
+
+a:focus {
+    color: #727888;
+}
+
+.error {
+    border: 2px solid red!important;
+    color: red!important;
+}
+
+.success {
+    border: 2px solid green!important;
+    color: green!important;
+}
+
+.section-wth-form {
+    background-image: url('../img/bg/shapes.png');
+}
+
+.contact-page-form-send .field.input-field i {
+    color: #6e56e0;
+}
+
+.arrow {
+    position: relative;
+    color: #fff;
+    animation: 2s mymove;
+	-webkit-animation: 2s mymove;
+	animation-iteration-count: infinite;
+}
+
+@keyframes mymove {
+	from {
+		top: 0px;
+	}
+
+	to {
+		top: 30px;
+	}
+}
+
+.swal2-actions.swal2-loading .swal2-styled.swal2-confirm {
+    border-left-color: #6e56e0!important;
+    border-right-color: #6e56e0!important;
+}
